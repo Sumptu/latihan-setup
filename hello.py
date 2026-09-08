@@ -6,5 +6,5 @@ data = respons.json()
 
 nama = "Naren"
 print(f"Halo, {nama}")
-print(data["public_repos"])
-print(data["created_at"])
+print(f"{data['public_repos']}")
+print(f"{data['created_at']}")
